@@ -1,0 +1,262 @@
+/* 横並び */
+@import url('https://fonts.googleapis.com/css2?family=Caveat&display=swap');
+@import url('https://fonts.googleapis.com/css?family=M+PLUS+Rounded+1c');
+
+/*全ページ共有部分*/
+body{
+  background-image: url(../pic/header.jpg);
+  background-repeat: no-repeat;
+  background-position: center top;
+  background-attachment: fixed;
+  background-size: 100% auto;
+  margin: 0 0 0 0;
+  padding:0
+}
+.header h{
+    display: contents;
+    float: left;
+    font-size: 120px;
+    margin-bottom: 0;
+    font-family: 'Caveat', cursive;
+}
+.header li{
+    float: right;
+    margin: 0 10px;
+    list-style: none;
+}
+
+/*portfolio.html*/
+li a{
+    color: gray;
+}
+li a:hover{
+    color: black;
+}
+.flex {
+  margin:auto;
+  width: 100%;
+  height: 100%;
+  background-color: aliceblue;
+  clear: both;
+  display: flex; /*横並び*/
+  }
+.flex .image {
+  width: 320px; /*画像サイズ指定*/
+  height: 300px;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  position: relative;
+}
+.flex .title {
+  font-family: "Nico Moji"; 
+  margin: 0;
+  padding: 0;
+  font-weight: bold;
+  font-size: 40px;
+  text-decoration: underline;
+  text-decoration-color: aqua;
+  text-decoration-thickness:3px;
+
+}
+.flex .text {
+  margin: 10px 0 0 10px;
+  padding: 0;
+  font-size: 30px;
+  font-family: 'M PLUS Rounded 1c', sans-serif;
+}
+.container{
+
+  margin:auto;
+  width: 100%;
+  height: 100%;
+  background-color: aliceblue;
+}
+.desc_title{
+  font-family: "Nico Moji"; 
+  text-decoration: underline;
+  text-decoration-color: aqua;
+  text-decoration-thickness:3px;
+  font-size: 25px;
+  margin: auto;
+}
+.desc{
+  margin: auto;
+  font-size:20px;
+}
+.Career{
+  background-color: aliceblue;
+}
+.Career #title{
+  font-size: 50px;
+  text-decoration: underline;
+  text-decoration-color: aqua;
+  text-decoration-thickness:3px;
+}
+.Career table{
+  border-spacing: 0;
+  border-collapse: collapse;
+}
+.Career td{
+  width: 660px;
+  padding: 12px 0 12px 40px;
+  border: 1px solid #cccccc;
+}
+.Career th{
+  width: 240px;
+  background-color: #afadad;
+  padding: 12px 0;
+  border: 1px solid #cccccc;
+}
+.license{
+  background-color: aliceblue;
+}
+.license #title{
+  font-size: 50px;
+  text-decoration: underline;
+  text-decoration-color: aqua;
+  text-decoration-thickness:3px;
+}
+.license table{
+  border-spacing: 0;
+  border-collapse: collapse;
+}
+.license td{
+  width: 660px;
+  padding: 12px 0 12px 40px;
+  border: 1px solid #cccccc;
+}
+.license th{
+  width: 240px;
+  background-color: #afadad;
+  padding: 12px 0;
+  border: 1px solid #cccccc;
+}
+.learned h{
+  font-size: 40px;
+  text-decoration: underline;
+  text-decoration-color: aqua;
+  text-decoration-thickness:3px;
+}
+.learned table{
+  border-spacing: 0;
+  border-collapse: collapse;
+}
+.learned td{
+  width: 660px;
+  padding: 12px 0 12px 40px;
+  border: 1px solid #cccccc;
+}
+.learned th{
+  width: 240px;
+  background-color: #afadad;
+  padding: 12px 0;
+  border: 1px solid #cccccc;
+}
+.next{
+  margin-top: 70px;
+  padding-top: 70px;
+}
+.next img{
+  margin-top: 20px;
+  margin-bottom: 0;
+  width: 800px;
+  height: 350px;
+}
+.next-portfolio{
+  position: relative;
+}
+.next-portfolio p{
+  position: absolute;/*絶対配置*/
+  color: purple;/*文字は白に*/
+  font-size: 20px;
+  top: 10%;
+  left:auto;
+}
+.next-portfolio a:hover{
+  opacity: 80%;
+}
+.next-gallery{
+  position: relative;
+}
+.next-gallery p {
+  position: absolute;/*絶対配置*/
+  color: purple;/*文字は白に*/
+  font-size: 20px;
+  top: 10%;
+  left:auto;
+  }
+.next-gallery a:hover{
+  opacity: 80%;
+}
+.next-work{
+  position: relative;
+}
+.next-work p {
+  position: absolute;/*絶対配置*/
+  color: purple;/*文字は白に*/
+  font-size: 20px;
+  top: 10%;
+  left:auto;
+  }
+.next-work a:hover{
+  opacity: 80%;
+}
+/*portfolio.html*/
+/*pic.html*/
+.list_pic{
+  overflow-x: auto;
+  white-space: nowrap;
+  -webkit-overflow-scrolling: touch;
+}
+.list{
+  display: inline-block;
+  width: 600px;
+  height: 500px;
+  margin: 16px;
+  font-size: 48px;
+  background: rgba(92, 92, 92, 0.532);
+  
+}
+.list #pic{
+  width: 600px;
+  height: 500px;
+}
+.list_pic_h{
+  margin: 10px 0 0 10px;
+  padding: 0;
+  font-size: 80px;
+  font-family: 'M PLUS Rounded 1c', sans-serif;
+  border-bottom: solid 10px aquamarine;
+}
+.margin{
+  padding-top: 80px;
+  margin-top: 80px;
+}
+.list_pic_p{
+  padding-top: 1000px;
+  margin-top: 1000x;
+  font-size: 40px;
+  font-family: 'Caveat', cursive;
+}
+#next-pic{
+  float: right;
+}
+#next-portfolio{
+  margin-right: 50px;
+  float: left;
+}
+/*pic.html*/
+/*work.html*/
+
+/*work.html*/
+
+/*全ページ共通部分*/
+footer{
+  color: #ffffff;
+  text-align: center;
+  background-color: rgba(33, 49, 87, 0.694);
+  height: 50px;
+  padding:0 ;
+  margin-top: 0;
+}
