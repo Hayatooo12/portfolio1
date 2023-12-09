@@ -32,6 +32,12 @@ li a{
 li a:hover{
     color: black;
 }
+.container_sub{
+　margin:auto;
+  width: 100%;
+  height: 100%;
+  background-color: aliceblue;
+}
 .flex {
   margin:auto;
   width: 100%;
