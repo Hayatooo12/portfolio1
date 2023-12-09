@@ -32,12 +32,6 @@ li a{
 li a:hover{
     color: black;
 }
-.container_sub{
-　margin:auto;
-  width: 100%;
-  height: 100%;
-  background-color: aliceblue;
-}
 .flex {
   margin:auto;
   width: 100%;
@@ -251,6 +245,12 @@ li a:hover{
 #next-portfolio{
   margin-right: 50px;
   float: left;
+}
+.sub_container{
+　margin:auto;
+  width: 100%;
+  height: 100%;
+  background-color: aliceblue;
 }
 /*pic.html*/
 /*work.html*/
